@@ -1,0 +1,88 @@
+﻿.basket-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.basket-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.book-column {
+    flex: 0 0 auto;
+    margin-right: 10px;
+}
+
+.details-column {
+    flex: 1;
+}
+
+.title-author-section {
+    display: flex;
+    flex-direction: column;
+}
+
+    .title-author-section h4 {
+        margin: 0;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .title-author-section p {
+        margin: 0;
+        font-style: italic;
+        font-size: 14px;
+    }
+
+.price-section {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.action-column {
+    flex: 0 0 auto;
+}
+
+.basket-item .book-image {
+    width: 100px;
+    height: 100px;
+}
+
+.total-price {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.checkout-section {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.checkout-button {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #f4d6b4;
+    color: #bbafa1;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    .checkout-button:hover {
+        background-color: #361e02;
+    }
+
+    .checkout-button:active {
+        background-color: #e0bd95;
+    }

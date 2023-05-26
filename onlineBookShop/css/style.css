@@ -1,0 +1,146 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+.top {
+	text-align: center;
+	background-color: #663b03;
+	color: #ffffff;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+	.top_h1{
+		text-align: left;
+		text-decoration: none;
+		color: #fff;
+	}
+
+.top a {
+	text-align: center;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 0.4rem 2rem;
+	border-radius: 25px;
+	transition: background-color 0.1s ease-in-out;
+	justify-content: flex-start;
+
+}
+
+	.top a:hover {
+	background-color: #b87905;
+}
+
+	.top_admin {
+		background-color: #721111
+	}
+
+#logo {
+	margin-right: auto;
+	display: flex;
+	align-items: center;
+	height: 130px;
+	margin-right: 1rem;
+	margin-left: 1rem;
+}
+
+#bot {
+	text-align: center;
+	background-color: #333;
+	color: white;
+	padding: 10px;
+}
+
+#mid {
+	text-align: center;
+	padding: 10px 10px 50px 10px; /* top right bot left*/
+}
+
+	#mid p.description {
+		text-align: justify;
+	}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(6,1fr);
+	background-color: #ffffff;
+	padding: 50px;
+}
+
+.item {
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 0px solid rgba(0, 0, 0, 0);
+	padding: 15px;
+	font-size: 14px;
+	text-align: center;
+}
+
+.container {
+	max-width: 800px;
+	margin: auto;
+	padding: 5rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+.book {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 1rem;
+	max-width: 200px;
+	text-align: center;
+	box-shadow: 0 2px 4px rgba(230, 12, 12, 0.2);
+	border-radius: 5px;
+	padding: 1rem;
+}
+
+	.book img {
+		margin-bottom: 1rem;
+		max-width: 100%;
+	}
+
+	.book h2 {
+		margin-bottom: 0.5rem;
+	}
+
+	.book p {
+		margin: 0;
+		font-weight: bold;
+	}
+
+button {
+	background-color: #ac810b;
+	color: #ffffff;
+	padding: 0.5rem 1rem;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease-in-out;
+}
+
+	button:hover {
+		background-color: #e7ad0b;
+	}
+
+
+  
+	.inputbox {
+		width: 100%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		display: inline-block;
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+	}
+
+	.container {
+		padding: 16px;
+		width: 40%;
+		height: 40%;
+		margin: auto;
+	}

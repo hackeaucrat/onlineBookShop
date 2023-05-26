@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="backend.master.cs" Inherits="onlineBookShop.backend" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <!-- Header Section -->
+        <div class="top top_admin">
+            <a href="home.aspx">
+                <img id="logo" src="Images/logo1.png" alt="OnlineBookShop"></a>
+
+            <h1>Online Book Shop</h1>
+
+            <a href="admin.aspx">Admin Home</a>
+            <a href="manage.aspx">Manage Books</a>
+            <a href="view.aspx">View Books</a>
+            <asp:LinkButton ID="lblLogout" runat="server" Text="LOGOUT" OnClick="lblLogout_Click"> LOGOUT</asp:LinkButton>
+            <asp:Label ID="ldlUname" runat="server" Text="(Log in as:  Admin)"></asp:Label>
+
+        </div>
+
+        <!-- Middle/content section -->
+        <div id="mid">
+            <div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+
+        <!-- Footer section -->
+        <div id="bot">
+            <p>Copyright &copy; 2023 OnlineBookShop</p>
+        </div>
+    </form>
+</body>
+</html>

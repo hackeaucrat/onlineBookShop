@@ -1,0 +1,36 @@
+﻿.books-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: normal;
+}
+
+.book-item {
+    width: 200px;
+    margin-bottom: 0px;
+    padding: 5px;
+    border: 1px solid transparent;
+    text-align: center;
+}
+
+    .book-item .book-image {
+        max-width: 75%;
+        max-height: 200px;
+        margin: 0 auto 2px;
+    }
+
+    .book-item .book-title {
+        font-weight: bold;
+        font-size: 18px;
+        display: flex;
+        padding: 10px;
+    }
+
+    .book-item .book-author {
+        font-style: italic;
+        font-size: 14px;
+    }
+
+    .book-item .book-price {
+        margin-top: 5px;
+        font-size: 14px;
+    }
